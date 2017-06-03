@@ -1,0 +1,122 @@
+#cart
+{
+    height: 70px;
+    border-bottom: 1px solid #a9a0a0;
+}
+#th_1, #th_2, #th_3, #th_4
+{
+    float: left;
+
+}
+#cart #th_1
+{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    /*padding-left: 15px;*/
+    color:#357ae8;
+}
+#cart #th_2
+{
+    font-size: 20px;
+    margin-top: 30px;
+    /*padding-left: 330px;*/
+}
+#cart #th_3
+{
+    font-size: 20px;
+    margin-top: 30px;
+    /*padding-left: 60px;*/
+}
+#cart #th_4
+{
+    font-size: 20px;
+    margin-top: 30px;
+    /*padding-left: 80px;*/
+}
+.product{
+    height: 120px;
+    border-bottom: 1px solid #a9a0a0;
+}
+.pr_remove,.pr_image, .pr_name, .pr_quantity, .pr_price, .pr_pay
+{
+   float: left;
+   margin-top:10px;
+   font-size: 15px;
+   
+}
+.pr_remove
+{
+    font-weight: bold;
+}
+.pr_remove a
+{
+    text-decoration: none;
+}
+.pr_remove a:hover
+{
+    color:red;
+    padding: 5px;
+    border: 1px solid #42454e;
+    background: #E0E0E0;
+}
+.pr_image
+{
+    width: 50px;
+}
+.pr_name
+{
+    font-weight: bold;
+}
+.pr_price
+{
+    text-align: right;
+}
+
+.pr_quantity input{
+    width:40px;  
+    margin-left: 15px;
+}
+.pr_pay
+{
+    text-align: right;
+}
+
+#total
+{   
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 600px;
+}
+#total_item, #total_value
+{
+    float: left;
+    font-size: 20px;
+    color: red;
+}
+#total_value
+{
+    width: 260px;
+    text-align: right;
+}
+#pay
+{
+    
+    float: right;
+    margin-top:20px;
+    margin-right: 20px;    
+    margin-bottom: 50px;
+    padding:5px;
+    border:1px solid green;
+    font-size:25px;
+    font-weight: bold;
+    background: green;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#pay:hover
+{
+    background: #00ff00;
+}
+

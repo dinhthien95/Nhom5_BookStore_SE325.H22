@@ -1,0 +1,288 @@
+#pay_text
+{
+    border: 1px solid #009832;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: #009832;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#note
+{
+    font-size: 18px;
+
+}
+.infopay
+{
+    float: left;
+    width: 100%;
+    height: 560px;
+    padding-left: 5px;
+    padding-top: 10px;
+    border: 1px solid #a9a0a0;
+}
+.pay_title
+{
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    border-bottom: 2px dashed #777777;
+    margin:10px;
+}
+.book{
+    height: 70px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #777777;
+}
+.book_image, .book_name, .book_quantity, .book_pay
+{
+    float: left;
+    margin-top: 5px;
+}
+.book_image
+{
+    border: 1px solid black;
+    width:62px;
+    /*margin-left: 5px;*/
+}
+.book_name
+{
+    width: 130px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.book_quantity input{
+    width:30px;   
+}
+.book_pay
+{
+    text-align: right;
+    width:50px;
+}
+#part1
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#back_pay
+{
+    font-size: 15px;
+    margin-top: 30px;
+    float:right;
+    font-weight: bold;
+}
+#back_pay a
+{
+    text-decoration: none;
+}
+.txt
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.inp input
+{
+    margin-top: 10px;
+    height: 25px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#part2
+{
+    height: 30px;
+    width:70px;
+    float: right;
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FFCC00;
+    text-align: center;
+    background: #FFCC00;
+
+}
+#part2 input
+{
+    font-weight: bold;
+    
+}
+#part2 input:hover{
+    cursor: pointer;
+}
+
+
+input[type=radio]
+{
+    display: none;
+}
+.btn_check {
+    clear: both;
+    margin: 20px 30px;
+}
+
+.lb {
+    width: 250px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4
+}
+
+/* hide input */
+input.radio:empty {
+    margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label {
+    position: relative;
+    float: left;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.radio:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+/* toggle on */
+
+/*input.radio:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: white;
+    background-color: #009832;
+}*/
+
+/*input.radio:checked ~ label {
+    color: red;
+}*/
+
+/* radio focus */
+input.radio:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+
+/*radio_update*/
+input.radio_update:empty {
+    margin-left: -999px;
+}
+
+/* style label */
+input.radio_update:empty ~ label {
+    position: relative;
+    float: left;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.radio_update:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio_update:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+input.radio_update:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+/* toggle on */
+
+input.radio_update:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: white;
+    background-color: #009832;
+}
+
+input.radio_update:checked ~ label {
+    color: red;
+}
+
+/* radio focus */
+input.radio_update:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+#row
+{
+    height: 50px;
+    border: 1px solid #009832;
+    background: #009832;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#tong, #money
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+#btn_pay
+{
+    float: right;
+    margin-top:20px;    
+    margin-bottom: 50px;
+    padding:5px;
+    border:1px solid green;
+    font-size:25px;
+    font-weight: bold;
+    background: #FFCC00;
+    color: #000;
+    text-decoration: none;
+}
+#btn_pay:hover{
+    background: yellow;
+} 

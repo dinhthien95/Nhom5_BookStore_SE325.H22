@@ -1,0 +1,63 @@
+p{
+    margin:0;
+    padding:0;
+    padding-bottom:10px;
+}
+.body{
+    margin: 30px;
+    margin-left: 150px;
+    height: 550px;
+    width: 700px;
+    padding-bottom: 50px;
+    border: 2px solid #E0E0E0;
+}
+#reg_text
+{
+    font-size: 25px;
+    margin:20px;
+    font-weight: bold;
+    color:green;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #E0E0E0;
+}
+.left{
+    width: 200px;
+    font-size: 15px;
+    margin-left: 70px;
+    padding-left: 80px;
+    font-weight: bold;
+
+}
+.right input{
+    height: 30px;
+    width: 220px;
+}
+.right .rad
+{
+    height: 20px;
+    width: 50px;
+}
+#bottom
+{
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.btn_reg
+{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background: #00cc33;
+    color: white;
+}
+
+#bottom
+{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}

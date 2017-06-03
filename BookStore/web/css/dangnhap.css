@@ -1,0 +1,53 @@
+#login
+{
+    float:left;
+    margin: 50px;
+    margin-left: 150px;
+    height: 450px;
+    width: 600px;
+    padding-bottom: 50px;
+    border: 2px solid #E0E0E0;
+}
+
+#login_text
+{
+    font-size: 30px;
+    margin:30px;
+    font-weight: bold;
+    color:green;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #E0E0E0;
+}
+#login_1, #login_2
+{
+    padding-bottom: 40px;
+}
+#login_user, #login_pass
+{
+    float: left;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+#input_user, #input_pass
+{
+    height: 30px;
+    min-width: 200px;
+}
+
+#button
+{
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 20px;
+    background: #00cc33;
+    color: white;
+}
+
+#dk:hover
+{
+    font-style: italic;
+    font-weight: bold;
+}

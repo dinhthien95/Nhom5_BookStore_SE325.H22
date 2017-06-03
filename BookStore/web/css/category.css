@@ -1,0 +1,160 @@
+ /**DINH DANG MENU LEFT**/
+        #danhmuc h1{
+            font-size: 14px;
+            text-align: center;
+            background: #336633;
+            color:#FFF;
+            height: 38px;
+            line-height:38px;
+        }
+        #danhmuc ul{
+            margin: 0px;
+            padding:0px;
+            list-style:none;
+        }
+        #danhmuc ul a{
+            text-decoration:none;
+            font-size:14px;
+            color: #660000;
+            line-height: 28px;
+
+            display: block;
+            padding-left: 5px;
+        }
+
+        #danhmuc>ul>li{
+            border-bottom:1px solid #777777;
+            border-right: 1px solid #777777;
+            position: relative;//cố định li
+        }
+        #danhmuc>ul>li:hover {
+            border-right:none;
+        }
+        #danhmuc>ul>li>a:hover{
+            background: #CCFF33;
+        }
+        #danhmuc li ul{
+            display: none;
+            padding:0;
+            width: 800px;
+            margin-left: 200px;
+            margin-top:-29px;
+            //margin-bottom: 500px;
+        }
+
+        #danhmuc li:hover .submenu{
+            display:block;//hiện menu con khi hover
+        }
+        .submenu {
+            display: none;
+            position: absolute;//menu con nổi lên trên li
+            z-index: 90;
+           
+        }
+        .submenu li{
+            display:block;
+            position: relative;
+            z-index: 999;
+            background: cornsilk;
+            float: left;
+            text-decoration: none;
+            //line-height: 35px;
+            color:#000;
+            font-weight: bolder;
+            font-size: 16px;
+            padding: 10px 95px 0px 91px;
+            height: 200px;
+            margin-top: -100px;
+        }
+
+        .slideshow { 
+            position:relative; /*Make the slideshow container  position:relative and make the sub elements absolute to position the sub element absolute to the container*/
+            height:500px; /*The slide show height*/
+            overflow:hidden;
+        }
+        .slideshow div {
+            position:absolute; 
+            top:0px;;
+            left:0;
+            z-index:8;
+        }
+        .slideshow div img
+        {
+            width:600px; /*The image slide show width*/
+            height:500px; /*The image slide show height*/
+        }
+        .slideshow div.active {
+            z-index:10;
+        }
+        .slideshow div.lastactive {
+            z-index:9;
+        }
+/*Danh mục topSell*/
+#content ul {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+
+}
+#content #leftSell #topSell li {
+    border-top: 1px solid #E7E7E7;
+    overflow: hidden;
+    width: 241px;
+}
+#content #leftSell #topSell li:hover {
+    background-color: #fbfbfb;
+}
+#content #leftSell #topSell li:first-child {
+    border-width: none;
+}
+
+#content #leftSell #topSell li .img {
+    float: left;
+    height: 60px;
+    text-align: center;
+    width: 62px;
+}
+
+#content #leftSell #topSell li .img img {
+    height:60px;
+    width:60px;
+    padding-top: 10px;
+}
+
+#content #topSell li .info .title {
+    color: #4B4B4B;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+#content #topSell li .info .title:hover {
+    color: #049733;
+}
+
+#content #leftSell ul li .info .price {
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+#content #leftSell ul li .info .price .usual, #content #leftSell ul li .info .price .special {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    padding-right: 6px;
+    text-decoration: line-through;
+    padding-left: 10px;
+    margin-left: 5px;
+    color: white;
+}
+#content #leftSell ul li .info .price .special {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content #leftSell #topSell li:hover{
+    background: #CCFF33;
+}

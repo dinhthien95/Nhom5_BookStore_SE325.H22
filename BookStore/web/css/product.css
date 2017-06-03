@@ -1,0 +1,127 @@
+#left1 {
+    border: 0px solid #E9E9E9;
+    float: left;
+    /*width: 800px;*/
+    min-height:  300px;
+    /*margin-bottom: 50px;*/
+}
+
+#left1 ul {
+    list-style:none outside none;
+
+}
+#left1 ul li {
+    float:left;
+    padding-top: 15px;
+    padding-bottom: 21px;
+    margin-left: 15px;
+}
+#left1 ul li:hover {
+    background-color: #E0E0E0;
+}
+
+#left1 ul li .img {
+    text-align: center;
+    height: 160px;
+}
+
+#left1 ul li .img img {
+    height:150px;
+    width:100px;
+
+}
+
+#left1 .info {
+    padding: 17px 20px 0 19px;
+
+}
+
+#left1 .info .title {
+    color: #4B4B4B;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    min-height: 60px;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+#left1 .info .title:hover
+{
+    color: red;
+    font-style: oblique;
+}
+
+#left1 .info .price {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #383838;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 10px;
+    height: 15px;
+}
+
+#left1 .info .price .st {
+    color: #7F7F7F;
+    font-size: 11px;
+    line-height: 16px;
+    margin-right: 3px;
+}
+
+
+#left1 .info .actions {
+    overflow:hidden;
+    margin-top: 15px;
+}
+#left1 .info .actions a {
+    border: 1px solid #383838;
+    color: red;
+    display: block;
+    float:right;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+#left1 .info .actions a:hover
+{
+    border: 1px dashed green;
+}
+#left1 .info .actions a:first-child {
+    float:left;
+}
+.soTrang
+{
+/*    margin-left: 00px;*/
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+.soTrang .chiSoTrang
+{
+    margin: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #E0E0E0;
+    color: black;
+}
+.soTrang .chiSoTrang:hover
+{
+    background: #009832;
+    color: white;
+}
+.select
+{
+    background: red;
+}
